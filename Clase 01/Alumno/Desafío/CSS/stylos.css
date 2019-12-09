@@ -1,0 +1,90 @@
+body{
+    height: 100vh;
+    font-family: helvetica;
+    font-size:20px;
+}
+h1 {
+    text-align: center;
+
+}
+
+.sub-titulo{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+label {
+    display: none;
+}
+
+.formulario-1 {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+ 
+
+}
+
+.formulario-interior{
+    margin-left: auto;
+    width: 50%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,2fr);
+    justify-items:stretch;
+    height: 80px;
+    align-items:stretch;
+    justify-content: end;
+    align-content:stretch;
+}
+
+input {
+    padding: 10px;
+    font-size:15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid  rgba(129, 120, 120, 0.24);
+    font-family: helvetica;
+    
+}
+
+.boton{
+    margin-left: auto;
+    margin-top: 35px;
+    width: 50%;
+  
+    height: 50px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+   
+    
+}
+
+.btn1 {
+    background-color: #87CEFA;
+    color: white;
+    outline:none;
+}
+
+button {
+    width: 100%;
+    height: 35x;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+    border:none;
+
+   
+}
+
+.btn2 {
+    background-color: #FA8072;
+    color: white;
+}
+
+.btn3 {
+    background-color: #008000;
+    color: white;
+    }
